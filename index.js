@@ -7,24 +7,21 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 "/"];
 
 
-// randomizer function
+let password1 = document.getElementById("password-el");
+let password2 = document.getElementById("password-ell");
 
-function digitRandomizer() {
-    let randomDigit = Math.floor(Math.random()*91 + 1)
-    return randomDigit
+function passwordGenerator() {
+  password1.innerHTML = "";
+  password2.innerHTML = "";
+  for (let i = 0; i < 15; i++) {
+    let randomDigit = Math.floor(Math.random() * 90) + 1;
+    password1.textContent += characters[randomDigit];
+  }
+  for (let j = 0; j < 15; j++) {
+    let randomDigit2 = Math.floor(Math.random() * 90) + 1;
+    password2.textContent += characters[randomDigit2];
+  }
 }
 
-// for loop till 15 with random index
 
-function assambler() {
-    for ( let i = 0; i < 14; i++) {
-         let pswrd1 = "" += characters[randomDigit]
-    }
-    return pswrd1
-}
 
-// concatenate return of loop
-
-// how to do it twice???
-
-console.log(assambler())

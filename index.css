@@ -1,56 +1,48 @@
 body {
-    font-family: 'Karla', sans-serif;
-    background: #1F2937;
-    color: white;
-    width: 550px;
-    margin-left: 45px;
-    font-size: 25px;
+  font-family: "Karla", sans-serif;
+  background: #1f2937;
+  color: white;
+  width: 550px;
+  margin-left: 45px;
+  font-size: 25px;
 }
 
 span {
-    color: #10B981;
-    display: block;
-    margin-top: 5px;
+  color: #10b981;
+  display: block;
+  margin-top: 5px;
 }
 
 h1 {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
-
 
 button {
-    background: #10B981;
-    padding: 12px 20px;
-    color: white;
-    border-radius: 5px;
-    border: none;
-    margin-top: 50px;
+  background: #10b981;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 50px;
 }
 #slogan {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 div {
-    border-top: 1px solid #2F3E53;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    
+  border-top: 1px solid #2f3e53;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#pswrd-1 {
-    background-color: #2F3E53;
-    width: 220px;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
-}
-
-#pswrd-2 {
-    background-color: #2F3E53;
-    width: 220px;
-    border-radius: 5px;
-    padding: 5px;
-    text-align: center;
+.passwords {
+  background-color: #2f3e53;
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #10b981;
+  font-weight: bold;
 }
