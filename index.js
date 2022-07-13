@@ -9,8 +9,22 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 
 // randomizer function
 
+function digitRandomizer() {
+    let randomDigit = Math.floor(Math.random()*91 + 1)
+    return randomDigit
+}
+
 // for loop till 15 with random index
+
+function assambler() {
+    for ( let i = 0; i < 14; i++) {
+         let pswrd1 = "" += characters[randomDigit]
+    }
+    return pswrd1
+}
 
 // concatenate return of loop
 
 // how to do it twice???
+
+console.log(assambler())
