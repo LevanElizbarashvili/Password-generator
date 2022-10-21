@@ -22,6 +22,5 @@ function passwordGenerator() {
     password2.textContent += characters[randomDigit2];
   }
 }
-
-
+// branch tested
 
